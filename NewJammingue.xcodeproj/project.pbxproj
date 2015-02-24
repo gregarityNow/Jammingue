@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F04D074C1A9821F500446782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D074B1A9821F500446782 /* AppDelegate.swift */; };
+		F04D074E1A9821F500446782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D074D1A9821F500446782 /* ViewController.swift */; };
+		F04D07501A9821F500446782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04D074F1A9821F500446782 /* Images.xcassets */; };
+		F04D07531A9821F500446782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04D07511A9821F500446782 /* Main.storyboard */; };
+		F04D075F1A9821F500446782 /* NewJammingueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D075E1A9821F500446782 /* NewJammingueTests.swift */; };
+		F04D07691A98238300446782 /* Boop2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F04D07681A98238300446782 /* Boop2.wav */; };
+		F04D076C1A9823A400446782 /* JammingueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D076A1A9823A400446782 /* JammingueController.swift */; };
+		F0BC2E181A98DC8300D2F6C7 /* Nose.wav in Resources */ = {isa = PBXBuildFile; fileRef = F0BC2E171A98DC8300D2F6C7 /* Nose.wav */; };
+		F0BC2E1C1A9A4AC900D2F6C7 /* Noooze.wav in Resources */ = {isa = PBXBuildFile; fileRef = F0BC2E1B1A9A4AC900D2F6C7 /* Noooze.wav */; };
+		F0BC2E1E1A9A837500D2F6C7 /* hmhmhm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0BC2E1D1A9A837500D2F6C7 /* hmhmhm.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F04D07591A9821F500446782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04D073E1A9821F500446782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04D07451A9821F500446782;
+			remoteInfo = NewJammingue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F04D07461A9821F500446782 /* NewJammingue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewJammingue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04D074A1A9821F500446782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04D074B1A9821F500446782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F04D074D1A9821F500446782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F04D074F1A9821F500446782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F04D07521A9821F500446782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F04D07581A9821F500446782 /* NewJammingueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewJammingueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04D075D1A9821F500446782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04D075E1A9821F500446782 /* NewJammingueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJammingueTests.swift; sourceTree = "<group>"; };
+		F04D07681A98238300446782 /* Boop2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Boop2.wav; sourceTree = "<group>"; };
+		F04D076A1A9823A400446782 /* JammingueController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JammingueController.swift; sourceTree = "<group>"; };
+		F0BC2E171A98DC8300D2F6C7 /* Nose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Nose.wav; sourceTree = "<group>"; };
+		F0BC2E1B1A9A4AC900D2F6C7 /* Noooze.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Noooze.wav; sourceTree = "<group>"; };
+		F0BC2E1D1A9A837500D2F6C7 /* hmhmhm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hmhmhm.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F04D07431A9821F500446782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04D07551A9821F500446782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F04D073D1A9821F500446782 = {
+			isa = PBXGroup;
+			children = (
+				F04D07481A9821F500446782 /* NewJammingue */,
+				F04D075B1A9821F500446782 /* NewJammingueTests */,
+				F04D07471A9821F500446782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F04D07471A9821F500446782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F04D07461A9821F500446782 /* NewJammingue.app */,
+				F04D07581A9821F500446782 /* NewJammingueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F04D07481A9821F500446782 /* NewJammingue */ = {
+			isa = PBXGroup;
+			children = (
+				F04D07511A9821F500446782 /* Main.storyboard */,
+				F04D076A1A9823A400446782 /* JammingueController.swift */,
+				F04D074D1A9821F500446782 /* ViewController.swift */,
+				F0BC2E1D1A9A837500D2F6C7 /* hmhmhm.mp3 */,
+				F0BC2E1B1A9A4AC900D2F6C7 /* Noooze.wav */,
+				F0BC2E171A98DC8300D2F6C7 /* Nose.wav */,
+				F04D07681A98238300446782 /* Boop2.wav */,
+				F04D074B1A9821F500446782 /* AppDelegate.swift */,
+				F04D074F1A9821F500446782 /* Images.xcassets */,
+				F04D07491A9821F500446782 /* Supporting Files */,
+			);
+			path = NewJammingue;
+			sourceTree = "<group>";
+		};
+		F04D07491A9821F500446782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F04D074A1A9821F500446782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F04D075B1A9821F500446782 /* NewJammingueTests */ = {
+			isa = PBXGroup;
+			children = (
+				F04D075E1A9821F500446782 /* NewJammingueTests.swift */,
+				F04D075C1A9821F500446782 /* Supporting Files */,
+			);
+			path = NewJammingueTests;
+			sourceTree = "<group>";
+		};
+		F04D075C1A9821F500446782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F04D075D1A9821F500446782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F04D07451A9821F500446782 /* NewJammingue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04D07621A9821F500446782 /* Build configuration list for PBXNativeTarget "NewJammingue" */;
+			buildPhases = (
+				F04D07421A9821F500446782 /* Sources */,
+				F04D07431A9821F500446782 /* Frameworks */,
+				F04D07441A9821F500446782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewJammingue;
+			productName = NewJammingue;
+			productReference = F04D07461A9821F500446782 /* NewJammingue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F04D07571A9821F500446782 /* NewJammingueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04D07651A9821F500446782 /* Build configuration list for PBXNativeTarget "NewJammingueTests" */;
+			buildPhases = (
+				F04D07541A9821F500446782 /* Sources */,
+				F04D07551A9821F500446782 /* Frameworks */,
+				F04D07561A9821F500446782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F04D075A1A9821F500446782 /* PBXTargetDependency */,
+			);
+			name = NewJammingueTests;
+			productName = NewJammingueTests;
+			productReference = F04D07581A9821F500446782 /* NewJammingueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F04D073E1A9821F500446782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Snockety;
+				TargetAttributes = {
+					F04D07451A9821F500446782 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F04D07571A9821F500446782 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F04D07451A9821F500446782;
+					};
+				};
+			};
+			buildConfigurationList = F04D07411A9821F500446782 /* Build configuration list for PBXProject "NewJammingue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F04D073D1A9821F500446782;
+			productRefGroup = F04D07471A9821F500446782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F04D07451A9821F500446782 /* NewJammingue */,
+				F04D07571A9821F500446782 /* NewJammingueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F04D07441A9821F500446782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BC2E1C1A9A4AC900D2F6C7 /* Noooze.wav in Resources */,
+				F04D07691A98238300446782 /* Boop2.wav in Resources */,
+				F0BC2E181A98DC8300D2F6C7 /* Nose.wav in Resources */,
+				F04D07501A9821F500446782 /* Images.xcassets in Resources */,
+				F04D07531A9821F500446782 /* Main.storyboard in Resources */,
+				F0BC2E1E1A9A837500D2F6C7 /* hmhmhm.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04D07561A9821F500446782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F04D07421A9821F500446782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04D074E1A9821F500446782 /* ViewController.swift in Sources */,
+				F04D076C1A9823A400446782 /* JammingueController.swift in Sources */,
+				F04D074C1A9821F500446782 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04D07541A9821F500446782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04D075F1A9821F500446782 /* NewJammingueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F04D075A1A9821F500446782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F04D07451A9821F500446782 /* NewJammingue */;
+			targetProxy = F04D07591A9821F500446782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F04D07511A9821F500446782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04D07521A9821F500446782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F04D07601A9821F500446782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F04D07611A9821F500446782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F04D07631A9821F500446782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NewJammingue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F04D07641A9821F500446782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NewJammingue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F04D07661A9821F500446782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NewJammingueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewJammingue.app/Contents/MacOS/NewJammingue";
+			};
+			name = Debug;
+		};
+		F04D07671A9821F500446782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NewJammingueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewJammingue.app/Contents/MacOS/NewJammingue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F04D07411A9821F500446782 /* Build configuration list for PBXProject "NewJammingue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04D07601A9821F500446782 /* Debug */,
+				F04D07611A9821F500446782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04D07621A9821F500446782 /* Build configuration list for PBXNativeTarget "NewJammingue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04D07631A9821F500446782 /* Debug */,
+				F04D07641A9821F500446782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04D07651A9821F500446782 /* Build configuration list for PBXNativeTarget "NewJammingueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04D07661A9821F500446782 /* Debug */,
+				F04D07671A9821F500446782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F04D073E1A9821F500446782 /* Project object */;
+}
