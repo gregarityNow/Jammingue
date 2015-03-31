@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F00CAF741AC8BAE400F2E05D /* Drums1.wav in Resources */ = {isa = PBXBuildFile; fileRef = F00CAF721AC8BAE400F2E05D /* Drums1.wav */; };
+		F00CAF771AC8BBE500F2E05D /* Drums3.wav in Resources */ = {isa = PBXBuildFile; fileRef = F00CAF761AC8BBE500F2E05D /* Drums3.wav */; };
+		F00CAF791AC8BCB400F2E05D /* Drums2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F00CAF781AC8BCB400F2E05D /* Drums2.wav */; };
+		F02C5B841AB380B0007F2EDB /* pianoENoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C5B781AB380B0007F2EDB /* pianoENoo.wav */; };
+		F02C5B851AB380B0007F2EDB /* pianoCNoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C5B791AB380B0007F2EDB /* pianoCNoo.wav */; };
+		F02C5B861AB380B0007F2EDB /* pianoBNoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C5B7A1AB380B0007F2EDB /* pianoBNoo.wav */; };
+		F02C5B871AB380B0007F2EDB /* pianoANoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C5B7B1AB380B0007F2EDB /* pianoANoo.wav */; };
+		F02C5B881AB380B0007F2EDB /* pianoCSharpNoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C5B7C1AB380B0007F2EDB /* pianoCSharpNoo.wav */; };
+		F02C5B891AB380B0007F2EDB /* pianoFNoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C5B7D1AB380B0007F2EDB /* pianoFNoo.wav */; };
+		F02C5B8A1AB380B0007F2EDB /* pianoGNoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C5B7E1AB380B0007F2EDB /* pianoGNoo.wav */; };
+		F02C5B8B1AB380B0007F2EDB /* pianoDSharpNoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C5B7F1AB380B0007F2EDB /* pianoDSharpNoo.wav */; };
+		F02C5B8C1AB380B0007F2EDB /* pianoDNoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C5B801AB380B0007F2EDB /* pianoDNoo.wav */; };
+		F02C5B8D1AB380B0007F2EDB /* pianoFSharpNoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C5B811AB380B0007F2EDB /* pianoFSharpNoo.wav */; };
+		F02C5B8E1AB380B0007F2EDB /* pianoASharpNoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C5B821AB380B0007F2EDB /* pianoASharpNoo.wav */; };
+		F02C5B8F1AB380B0007F2EDB /* pianoGSharpNoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C5B831AB380B0007F2EDB /* pianoGSharpNoo.wav */; };
 		F04D074C1A9821F500446782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D074B1A9821F500446782 /* AppDelegate.swift */; };
 		F04D074E1A9821F500446782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D074D1A9821F500446782 /* ViewController.swift */; };
 		F04D07501A9821F500446782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04D074F1A9821F500446782 /* Images.xcassets */; };
@@ -14,9 +29,13 @@
 		F04D075F1A9821F500446782 /* NewJammingueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D075E1A9821F500446782 /* NewJammingueTests.swift */; };
 		F04D07691A98238300446782 /* Boop2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F04D07681A98238300446782 /* Boop2.wav */; };
 		F04D076C1A9823A400446782 /* JammingueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D076A1A9823A400446782 /* JammingueController.swift */; };
+		F07ADAD71AADE1F10079E750 /* PreSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07ADAD61AADE1F10079E750 /* PreSelectedViewController.swift */; };
+		F07ADADA1AAF97EC0079E750 /* reggae.wav in Resources */ = {isa = PBXBuildFile; fileRef = F07ADAD91AAF97EC0079E750 /* reggae.wav */; };
+		F0A5B05B1A9E193800A9BC87 /* swiftToss.wav in Resources */ = {isa = PBXBuildFile; fileRef = F0A5B05A1A9E193800A9BC87 /* swiftToss.wav */; };
 		F0BC2E181A98DC8300D2F6C7 /* Nose.wav in Resources */ = {isa = PBXBuildFile; fileRef = F0BC2E171A98DC8300D2F6C7 /* Nose.wav */; };
 		F0BC2E1C1A9A4AC900D2F6C7 /* Noooze.wav in Resources */ = {isa = PBXBuildFile; fileRef = F0BC2E1B1A9A4AC900D2F6C7 /* Noooze.wav */; };
 		F0BC2E1E1A9A837500D2F6C7 /* hmhmhm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0BC2E1D1A9A837500D2F6C7 /* hmhmhm.mp3 */; };
+		F0CCAE8F1A9F6EBF00B62AA9 /* chordSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCAE8E1A9F6EBF00B62AA9 /* chordSelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +49,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F00CAF721AC8BAE400F2E05D /* Drums1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Drums1.wav; path = "../../../Downloads/2_wav_files (online-audio-converter.com)/Drums1.wav"; sourceTree = "<group>"; };
+		F00CAF761AC8BBE500F2E05D /* Drums3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Drums3.wav; path = "../../../Downloads/2_wav_files (online-audio-converter.com)/Drums3.wav"; sourceTree = "<group>"; };
+		F00CAF781AC8BCB400F2E05D /* Drums2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Drums2.wav; path = "../../../Downloads/2_wav_files (online-audio-converter.com)/Drums2.wav"; sourceTree = "<group>"; };
+		F02C5B781AB380B0007F2EDB /* pianoENoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pianoENoo.wav; path = ../../foldeur/pianoENoo.wav; sourceTree = "<group>"; };
+		F02C5B791AB380B0007F2EDB /* pianoCNoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pianoCNoo.wav; path = ../../foldeur/pianoCNoo.wav; sourceTree = "<group>"; };
+		F02C5B7A1AB380B0007F2EDB /* pianoBNoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pianoBNoo.wav; path = ../../foldeur/pianoBNoo.wav; sourceTree = "<group>"; };
+		F02C5B7B1AB380B0007F2EDB /* pianoANoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pianoANoo.wav; path = ../../foldeur/pianoANoo.wav; sourceTree = "<group>"; };
+		F02C5B7C1AB380B0007F2EDB /* pianoCSharpNoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pianoCSharpNoo.wav; path = ../../foldeur/pianoCSharpNoo.wav; sourceTree = "<group>"; };
+		F02C5B7D1AB380B0007F2EDB /* pianoFNoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pianoFNoo.wav; path = ../../foldeur/pianoFNoo.wav; sourceTree = "<group>"; };
+		F02C5B7E1AB380B0007F2EDB /* pianoGNoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pianoGNoo.wav; path = ../../foldeur/pianoGNoo.wav; sourceTree = "<group>"; };
+		F02C5B7F1AB380B0007F2EDB /* pianoDSharpNoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pianoDSharpNoo.wav; path = ../../foldeur/pianoDSharpNoo.wav; sourceTree = "<group>"; };
+		F02C5B801AB380B0007F2EDB /* pianoDNoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pianoDNoo.wav; path = ../../foldeur/pianoDNoo.wav; sourceTree = "<group>"; };
+		F02C5B811AB380B0007F2EDB /* pianoFSharpNoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pianoFSharpNoo.wav; path = ../../foldeur/pianoFSharpNoo.wav; sourceTree = "<group>"; };
+		F02C5B821AB380B0007F2EDB /* pianoASharpNoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pianoASharpNoo.wav; path = ../../foldeur/pianoASharpNoo.wav; sourceTree = "<group>"; };
+		F02C5B831AB380B0007F2EDB /* pianoGSharpNoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pianoGSharpNoo.wav; path = ../../foldeur/pianoGSharpNoo.wav; sourceTree = "<group>"; };
 		F04D07461A9821F500446782 /* NewJammingue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewJammingue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04D074A1A9821F500446782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F04D074B1A9821F500446782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,9 +75,14 @@
 		F04D075E1A9821F500446782 /* NewJammingueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJammingueTests.swift; sourceTree = "<group>"; };
 		F04D07681A98238300446782 /* Boop2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Boop2.wav; sourceTree = "<group>"; };
 		F04D076A1A9823A400446782 /* JammingueController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JammingueController.swift; sourceTree = "<group>"; };
+		F07ADAD61AADE1F10079E750 /* PreSelectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreSelectedViewController.swift; sourceTree = "<group>"; };
+		F07ADAD81AAF973D0079E750 /* 01 More Than a Feeling.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 More Than a Feeling.m4a"; sourceTree = "<group>"; };
+		F07ADAD91AAF97EC0079E750 /* reggae.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reggae.wav; sourceTree = "<group>"; };
+		F0A5B05A1A9E193800A9BC87 /* swiftToss.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swiftToss.wav; sourceTree = "<group>"; };
 		F0BC2E171A98DC8300D2F6C7 /* Nose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Nose.wav; sourceTree = "<group>"; };
 		F0BC2E1B1A9A4AC900D2F6C7 /* Noooze.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Noooze.wav; sourceTree = "<group>"; };
 		F0BC2E1D1A9A837500D2F6C7 /* hmhmhm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hmhmhm.mp3; sourceTree = "<group>"; };
+		F0CCAE8E1A9F6EBF00B62AA9 /* chordSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = chordSelectionViewController.swift; path = ../chordSelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +124,18 @@
 		F04D07481A9821F500446782 /* NewJammingue */ = {
 			isa = PBXGroup;
 			children = (
+				F07ADADE1AB07CC40079E750 /* RecordedTunes */,
 				F04D07511A9821F500446782 /* Main.storyboard */,
-				F04D076A1A9823A400446782 /* JammingueController.swift */,
+				F0CCAE8E1A9F6EBF00B62AA9 /* chordSelectionViewController.swift */,
+				F07ADAD61AADE1F10079E750 /* PreSelectedViewController.swift */,
 				F04D074D1A9821F500446782 /* ViewController.swift */,
+				F04D076A1A9823A400446782 /* JammingueController.swift */,
 				F0BC2E1D1A9A837500D2F6C7 /* hmhmhm.mp3 */,
+				F0A5B05A1A9E193800A9BC87 /* swiftToss.wav */,
 				F0BC2E1B1A9A4AC900D2F6C7 /* Noooze.wav */,
 				F0BC2E171A98DC8300D2F6C7 /* Nose.wav */,
+				F07ADAD91AAF97EC0079E750 /* reggae.wav */,
+				F07ADAD81AAF973D0079E750 /* 01 More Than a Feeling.m4a */,
 				F04D07681A98238300446782 /* Boop2.wav */,
 				F04D074B1A9821F500446782 /* AppDelegate.swift */,
 				F04D074F1A9821F500446782 /* Images.xcassets */,
@@ -122,6 +167,28 @@
 				F04D075D1A9821F500446782 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F07ADADE1AB07CC40079E750 /* RecordedTunes */ = {
+			isa = PBXGroup;
+			children = (
+				F00CAF781AC8BCB400F2E05D /* Drums2.wav */,
+				F00CAF721AC8BAE400F2E05D /* Drums1.wav */,
+				F00CAF761AC8BBE500F2E05D /* Drums3.wav */,
+				F02C5B781AB380B0007F2EDB /* pianoENoo.wav */,
+				F02C5B791AB380B0007F2EDB /* pianoCNoo.wav */,
+				F02C5B7A1AB380B0007F2EDB /* pianoBNoo.wav */,
+				F02C5B7B1AB380B0007F2EDB /* pianoANoo.wav */,
+				F02C5B7C1AB380B0007F2EDB /* pianoCSharpNoo.wav */,
+				F02C5B7D1AB380B0007F2EDB /* pianoFNoo.wav */,
+				F02C5B7E1AB380B0007F2EDB /* pianoGNoo.wav */,
+				F02C5B7F1AB380B0007F2EDB /* pianoDSharpNoo.wav */,
+				F02C5B801AB380B0007F2EDB /* pianoDNoo.wav */,
+				F02C5B811AB380B0007F2EDB /* pianoFSharpNoo.wav */,
+				F02C5B821AB380B0007F2EDB /* pianoASharpNoo.wav */,
+				F02C5B831AB380B0007F2EDB /* pianoGSharpNoo.wav */,
+			);
+			name = RecordedTunes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,12 +271,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02C5B841AB380B0007F2EDB /* pianoENoo.wav in Resources */,
 				F0BC2E1C1A9A4AC900D2F6C7 /* Noooze.wav in Resources */,
+				F02C5B8A1AB380B0007F2EDB /* pianoGNoo.wav in Resources */,
+				F02C5B8B1AB380B0007F2EDB /* pianoDSharpNoo.wav in Resources */,
+				F07ADADA1AAF97EC0079E750 /* reggae.wav in Resources */,
 				F04D07691A98238300446782 /* Boop2.wav in Resources */,
+				F02C5B861AB380B0007F2EDB /* pianoBNoo.wav in Resources */,
+				F02C5B871AB380B0007F2EDB /* pianoANoo.wav in Resources */,
+				F02C5B8E1AB380B0007F2EDB /* pianoASharpNoo.wav in Resources */,
+				F02C5B8C1AB380B0007F2EDB /* pianoDNoo.wav in Resources */,
+				F02C5B891AB380B0007F2EDB /* pianoFNoo.wav in Resources */,
 				F0BC2E181A98DC8300D2F6C7 /* Nose.wav in Resources */,
+				F00CAF771AC8BBE500F2E05D /* Drums3.wav in Resources */,
 				F04D07501A9821F500446782 /* Images.xcassets in Resources */,
+				F0A5B05B1A9E193800A9BC87 /* swiftToss.wav in Resources */,
+				F02C5B8F1AB380B0007F2EDB /* pianoGSharpNoo.wav in Resources */,
+				F02C5B8D1AB380B0007F2EDB /* pianoFSharpNoo.wav in Resources */,
+				F02C5B881AB380B0007F2EDB /* pianoCSharpNoo.wav in Resources */,
 				F04D07531A9821F500446782 /* Main.storyboard in Resources */,
 				F0BC2E1E1A9A837500D2F6C7 /* hmhmhm.mp3 in Resources */,
+				F00CAF791AC8BCB400F2E05D /* Drums2.wav in Resources */,
+				F00CAF741AC8BAE400F2E05D /* Drums1.wav in Resources */,
+				F02C5B851AB380B0007F2EDB /* pianoCNoo.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +313,8 @@
 			files = (
 				F04D074E1A9821F500446782 /* ViewController.swift in Sources */,
 				F04D076C1A9823A400446782 /* JammingueController.swift in Sources */,
+				F07ADAD71AADE1F10079E750 /* PreSelectedViewController.swift in Sources */,
+				F0CCAE8F1A9F6EBF00B62AA9 /* chordSelectionViewController.swift in Sources */,
 				F04D074C1A9821F500446782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,10 +430,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = NewJammingue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewJammingue/NewJammingue-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -355,10 +444,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = NewJammingue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewJammingue/NewJammingue-Bridging-Header.h";
 			};
 			name = Release;
 		};

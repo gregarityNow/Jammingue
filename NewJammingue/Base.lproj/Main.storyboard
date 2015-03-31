@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6751"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -669,11 +669,11 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="NewJammingue" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="639" height="388"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Tr-k8-qa9">
-                                <rect key="frame" x="364" y="228" width="96" height="22"/>
+                                <rect key="frame" x="525" y="132" width="96" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Tempo:" placeholderString="120" drawsBackground="YES" id="AjB-W9-ACA">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -684,22 +684,14 @@
                                 </connections>
                             </textField>
                             <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xH1-LS-0Cg">
-                                <rect key="frame" x="289" y="196" width="176" height="21"/>
+                                <rect key="frame" x="420" y="105" width="176" height="21"/>
                                 <sliderCell key="cell" state="on" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="above" sliderType="linear" id="clx-aW-Qya"/>
                                 <connections>
                                     <action selector="sliderChange:" target="XfG-lQ-9wD" id="7Vv-qE-oWO"/>
                                 </connections>
                             </slider>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lKc-Kz-0Mw">
-                                <rect key="frame" x="18" y="148" width="198" height="77"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Welcome To Felix's Jammingue App" id="4G4-jD-PAt">
-                                    <font key="font" metaFont="system" size="22"/>
-                                    <color key="textColor" red="0.97935831549999997" green="0.16667800590000001" blue="0.39563731369999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="backgroundColor" red="0.6452217487373737" green="0.046490542479636625" blue="0.50105666223273682" alpha="1" colorSpace="calibratedRGB"/>
-                                </textFieldCell>
-                            </textField>
                             <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uf7-dU-8gd">
-                                <rect key="frame" x="362" y="36" width="100" height="26"/>
+                                <rect key="frame" x="523" y="197" width="100" height="26"/>
                                 <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="K4T-ug-xdA" id="iOF-m4-iET">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="menu"/>
@@ -713,49 +705,49 @@
                                 </popUpButtonCell>
                             </popUpButton>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nPK-Tm-Dg5">
-                                <rect key="frame" x="372" y="126" width="79" height="18"/>
+                                <rect key="frame" x="532" y="307" width="79" height="18"/>
                                 <buttonCell key="cell" type="check" title="Mandolin" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="Ohg-8c-DOh">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CMY-xu-yFJ">
-                                <rect key="frame" x="372" y="146" width="61" height="18"/>
+                                <rect key="frame" x="532" y="327" width="61" height="18"/>
                                 <buttonCell key="cell" type="check" title="Bass" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="HyS-qH-ULp">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uk7-bg-Tlb">
-                                <rect key="frame" x="372" y="166" width="61" height="18"/>
+                                <rect key="frame" x="532" y="347" width="61" height="18"/>
                                 <buttonCell key="cell" type="check" title="Brass" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="zoJ-TT-Esm">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WPh-UJ-RJF">
-                                <rect key="frame" x="372" y="106" width="61" height="18"/>
+                                <rect key="frame" x="532" y="287" width="61" height="18"/>
                                 <buttonCell key="cell" type="check" title="Piano" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="6sy-9x-y9y">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="raK-iZ-q1h">
-                                <rect key="frame" x="372" y="86" width="64" height="18"/>
+                                <rect key="frame" x="532" y="267" width="64" height="18"/>
                                 <buttonCell key="cell" type="check" title="Guittar" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="umN-h9-H0h">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N6O-NU-pOR">
-                                <rect key="frame" x="372" y="66" width="63" height="18"/>
-                                <buttonCell key="cell" type="check" title="Drums" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="9d0-Cd-5Vk">
+                                <rect key="frame" x="532" y="247" width="74" height="18"/>
+                                <buttonCell key="cell" type="check" title="Drums 1" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="9d0-Cd-5Vk">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dgq-bf-ocG">
-                                <rect key="frame" x="240" y="228" width="105" height="22"/>
+                                <rect key="frame" x="401" y="132" width="105" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="4" drawsBackground="YES" id="i7d-fJ-BbH">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -763,13 +755,13 @@
                                 </textFieldCell>
                             </textField>
                             <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Uo-Ts-Y0Z">
-                                <rect key="frame" x="248" y="122" width="100" height="26"/>
-                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="BMr-9H-FOe" id="DIQ-wV-3Wz">
+                                <rect key="frame" x="30" y="197" width="108" height="26"/>
+                                <popUpButtonCell key="cell" type="push" title="First Beat" alternateTitle="Other Beats" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="BMr-9H-FOe" id="DIQ-wV-3Wz">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="menu"/>
                                     <menu key="menu" id="QBe-yR-sXc">
                                         <items>
-                                            <menuItem title="Item 1" state="on" id="BMr-9H-FOe"/>
+                                            <menuItem title="First Beat" state="on" id="BMr-9H-FOe"/>
                                             <menuItem title="Item 2" id="pZy-xD-0Dc"/>
                                             <menuItem title="Item 3" id="iH4-cg-T2J"/>
                                         </items>
@@ -777,13 +769,13 @@
                                 </popUpButtonCell>
                             </popUpButton>
                             <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="viN-J7-vFO">
-                                <rect key="frame" x="248" y="91" width="100" height="26"/>
-                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="CVX-aQ-Dqu" id="qVD-6W-dAV">
+                                <rect key="frame" x="30" y="166" width="108" height="26"/>
+                                <popUpButtonCell key="cell" type="push" title="Other Beats" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="CVX-aQ-Dqu" id="qVD-6W-dAV">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="menu"/>
                                     <menu key="menu" id="HXQ-Ob-wC3">
                                         <items>
-                                            <menuItem title="Item 1" state="on" id="CVX-aQ-Dqu"/>
+                                            <menuItem title="Other Beats" state="on" id="CVX-aQ-Dqu"/>
                                             <menuItem title="Item 2" id="rBP-cq-ohZ"/>
                                             <menuItem title="Item 3" id="2rl-9H-7LG"/>
                                         </items>
@@ -791,7 +783,7 @@
                                 </popUpButtonCell>
                             </popUpButton>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ht2-OL-Bvz">
-                                <rect key="frame" x="164" y="130" width="86" height="18"/>
+                                <rect key="frame" x="30" y="227" width="86" height="18"/>
                                 <buttonCell key="cell" type="check" title="DöwnBeat" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="iDZ-KW-T3k">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -801,7 +793,7 @@
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wke-qm-ADZ">
-                                <rect key="frame" x="236" y="253" width="114" height="17"/>
+                                <rect key="frame" x="397" y="157" width="114" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Beat per Measure" id="3fJ-mc-1oJ">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -809,7 +801,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aJl-4D-vxV">
-                                <rect key="frame" x="364" y="253" width="46" height="17"/>
+                                <rect key="frame" x="525" y="157" width="46" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Tempo" id="LBr-A0-xxx">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -817,28 +809,79 @@
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xP2-py-Liz">
-                                <rect key="frame" x="125" y="-1" width="231" height="50"/>
+                                <rect key="frame" x="399" y="-1" width="240" height="65"/>
                                 <buttonCell key="cell" type="smallSquare" title="All Set" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="WQ1-G0-JLf">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <segue destination="fBG-F0-kfw" kind="sheet" id="u2g-na-XaY"/>
+                                    <action selector="allSetGo:" target="XfG-lQ-9wD" id="Jds-yq-bY4"/>
+                                    <segue destination="fBG-F0-kfw" kind="sheet" id="15K-Q7-s5a"/>
                                 </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w2b-J1-BIs">
+                                <rect key="frame" x="32" y="63" width="262" height="23"/>
+                                <buttonCell key="cell" type="smallSquare" title="Choose a Pre-Existing Chord Progression" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="eUL-sS-1ON">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="preExistingGo:" target="XfG-lQ-9wD" id="jEb-oM-iRd"/>
+                                    <segue destination="tYi-ra-fRX" kind="popover" identifier="preDesignedShowSecondVC" popoverAnchorView="w2b-J1-BIs" popoverBehavior="t" preferredEdge="maxY" id="8Qh-RX-ajJ"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XNE-lp-Q8u">
+                                <rect key="frame" x="36" y="23" width="162" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Chord Progression" id="LcF-Uv-gZl">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IWv-38-qSr">
+                                <rect key="frame" x="32" y="92" width="222" height="23"/>
+                                <buttonCell key="cell" type="smallSquare" title="Design My Own Chord Progression" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Dym-EI-SwG">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="designOwnGo:" target="XfG-lQ-9wD" id="G28-un-muF"/>
+                                    <segue destination="I2o-FS-A3L" kind="popover" identifier="showSecondVC" popoverAnchorView="IWv-38-qSr" popoverBehavior="t" preferredEdge="maxY" id="wIb-qA-xcg"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lKc-Kz-0Mw">
+                                <rect key="frame" x="220" y="170" width="198" height="77"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Welcome To Felix's Jammingue App" id="4G4-jD-PAt">
+                                    <font key="font" metaFont="system" size="22"/>
+                                    <color key="textColor" red="0.97935831549999997" green="0.16667800590000001" blue="0.39563731369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.6452217487373737" green="0.046490542479636625" blue="0.50105666223273682" alpha="1" colorSpace="calibratedRGB"/>
+                                </textFieldCell>
+                            </textField>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x6f-ep-lfD">
+                                <rect key="frame" x="532" y="227" width="74" height="18"/>
+                                <buttonCell key="cell" type="check" title="Drums 2" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="fVm-Eh-xxY">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
                             </button>
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="allSetButton" destination="xP2-py-Liz" id="fqn-Hi-Jr9"/>
                         <outlet property="bassButton" destination="CMY-xu-yFJ" id="vsz-yz-8SB"/>
                         <outlet property="brassButton" destination="Uk7-bg-Tlb" id="mUs-yF-dJa"/>
+                        <outlet property="chordProgressionLabelorum" destination="XNE-lp-Q8u" id="GLP-w8-q9M"/>
+                        <outlet property="designOwnButton" destination="IWv-38-qSr" id="0B2-ru-SAI"/>
                         <outlet property="döwnBeat" destination="Ht2-OL-Bvz" id="3e0-li-Ih5"/>
+                        <outlet property="drums1Button" destination="N6O-NU-pOR" id="no8-Sw-E2e"/>
+                        <outlet property="drums2Button" destination="x6f-ep-lfD" id="6w7-tp-3cM"/>
                         <outlet property="drumsButton" destination="N6O-NU-pOR" id="qL4-bD-hPR"/>
                         <outlet property="firstSoundchen" destination="8Uo-Ts-Y0Z" id="BLJ-Ne-sZW"/>
                         <outlet property="guittarButton" destination="raK-iZ-q1h" id="Qge-3K-4ZU"/>
                         <outlet property="keySelection" destination="uf7-dU-8gd" id="Bgv-Bg-Wb4"/>
                         <outlet property="mandolinButton" destination="nPK-Tm-Dg5" id="qnb-RM-rme"/>
-                        <outlet property="ose" destination="Uk7-bg-Tlb" id="GRR-X1-B01"/>
                         <outlet property="pianoButton" destination="WPh-UJ-RJF" id="C2h-Cl-Mux"/>
+                        <outlet property="preDesignButton" destination="w2b-J1-BIs" id="4zN-QQ-9Du"/>
                         <outlet property="secoindSoundchen" destination="viN-J7-vFO" id="6df-hi-SSR"/>
                         <outlet property="tempoManual" destination="0Tr-k8-qa9" id="NKs-uI-NyC"/>
                         <outlet property="tempoSlider" destination="xH1-LS-0Cg" id="SSC-Qm-IoK"/>
@@ -848,7 +891,340 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="-7.5" y="598"/>
+        </scene>
+        <!--Pre Selected View Controller-->
+        <scene sceneID="4Pn-fJ-Yk9">
+            <objects>
+                <viewController id="tYi-ra-fRX" customClass="PreSelectedViewController" customModule="NewJammingue" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="0tC-Ey-WqA">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G3j-Cm-zbz">
+                                <rect key="frame" x="15" y="236" width="205" height="45"/>
+                                <buttonCell key="cell" type="smallSquare" title="I,vi,IV,V (G,em,C,D)" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5Sm-0i-STQ">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="IviIVVGemCD:" target="tYi-ra-fRX" id="INm-A9-49z"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DIS-QU-UQB">
+                                <rect key="frame" x="15" y="107" width="205" height="45"/>
+                                <buttonCell key="cell" type="smallSquare" title="I,V,vi,IV (G,D,em,C)" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6Ac-uj-j7G">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="IVviIVGDemC:" target="tYi-ra-fRX" id="fzY-hz-O7k"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ljV-2M-EMQ">
+                                <rect key="frame" x="15" y="193" width="205" height="45"/>
+                                <buttonCell key="cell" type="smallSquare" title="I,I,IV,I,V,IV,I,V (8 Bar Blues)" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ROF-f0-hIT">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="IIIVIVIVII8BarBlues:" target="tYi-ra-fRX" id="tiT-IB-5sH"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mrd-m7-sE9">
+                                <rect key="frame" x="15" y="150" width="205" height="45"/>
+                                <buttonCell key="cell" type="smallSquare" title="I,vi,IV,V (G,em,C,D)" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="AQa-A2-EeG">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="IviIVVGDemC:" target="tYi-ra-fRX" id="ohh-iR-T2y"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tqY-jy-eAn">
+                                <rect key="frame" x="15" y="64" width="205" height="45"/>
+                                <buttonCell key="cell" type="smallSquare" title="I,IV,vi,V (G,C,em,D)" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hiK-v4-5U9">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="IviIVVGDemC2:" target="tYi-ra-fRX" id="XYN-Wr-bcK"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GHl-ch-RFI">
+                                <rect key="frame" x="15" y="24" width="205" height="45"/>
+                                <buttonCell key="cell" type="smallSquare" title="I,IV,I7,IV,I,IV,I,IV (Boston)" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="GYI-W9-AqR">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="IIVI7IVIIVIIVBoston:" target="tYi-ra-fRX" id="PTd-r4-Qn5"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nX6-By-5Nv">
+                                <rect key="frame" x="228" y="236" width="205" height="45"/>
+                                <buttonCell key="cell" type="smallSquare" title="I,V/IV,ii,V (G, E, am, D)" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bSX-Pc-9TG">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="IVIViiV:" target="tYi-ra-fRX" id="sDe-hK-Xot"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cI0-8n-kV5">
+                                <rect key="frame" x="228" y="107" width="205" height="45"/>
+                                <buttonCell key="cell" type="smallSquare" title="i,V,i,V,i,VII,i,iv" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="KMz-3M-MXP">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="iViViVIIiiv:" target="tYi-ra-fRX" id="g9p-Uy-n3s"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1on-Wb-GiD">
+                                <rect key="frame" x="228" y="193" width="205" height="45"/>
+                                <buttonCell key="cell" type="smallSquare" title="I,IV,I,V,I,V/IV,ii,I (Ode to Joy)" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="0qI-c9-LZC">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="IIVIVIVIViiIOdetoJoy:" target="tYi-ra-fRX" id="FuL-Dn-HKb"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L0s-Ia-TW7">
+                                <rect key="frame" x="228" y="150" width="205" height="45"/>
+                                <buttonCell key="cell" type="smallSquare" title="I,I,VII,VII,I,VII,iv,V" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="D5V-QF-LiL">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="IIVIIVIIIVIIivV:" target="tYi-ra-fRX" id="xad-Ix-7BB"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XGJ-lr-WI1">
+                                <rect key="frame" x="228" y="64" width="205" height="45"/>
+                                <buttonCell key="cell" type="smallSquare" title="i,V,III,VII,v,II,V,V7" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hJw-cE-JIw">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="iVIIIVIIvIIVV7:" target="tYi-ra-fRX" id="X2S-K7-MVQ"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZFs-tH-6ao">
+                                <rect key="frame" x="228" y="24" width="205" height="45"/>
+                                <buttonCell key="cell" type="smallSquare" title="i,V,i,V,i,VII,III,V" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5Zx-kb-zco">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="iViViVIIIIIV:" target="tYi-ra-fRX" id="j31-gF-SxE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                </viewController>
+                <customObject id="di4-Ct-hgx" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-361" y="1019"/>
+        </scene>
+        <!--Chord Selection View Controller-->
+        <scene sceneID="xhD-Tp-UuL">
+            <objects>
+                <viewController id="I2o-FS-A3L" customClass="chordSelectionViewController" customModule="NewJammingue" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="CXS-8k-GfI">
+                        <rect key="frame" x="0.0" y="0.0" width="584" height="156"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kXu-wi-1dv">
+                                <rect key="frame" x="20" y="30" width="42" height="39"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="4Fg-58-Hot">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="numba1:" target="I2o-FS-A3L" id="Ibv-f4-SBv"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R7L-Wf-6nM">
+                                <rect key="frame" x="66" y="30" width="42" height="39"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="g30-iG-PwN">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="chord2Changé:" target="I2o-FS-A3L" id="oV0-bQ-mMQ"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ss9-zY-2ba">
+                                <rect key="frame" x="378" y="30" width="42" height="39"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="IrC-m6-8CC">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="chord9Changé:" target="I2o-FS-A3L" id="Xus-gE-2AQ"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ir4-JX-GEY">
+                                <rect key="frame" x="468" y="30" width="42" height="39"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="bdv-pr-LyC">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="chord11Changé:" target="I2o-FS-A3L" id="cH3-Jc-1ec"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zKf-Wp-rfM">
+                                <rect key="frame" x="290" y="30" width="42" height="39"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="0Rq-da-MF6">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="chord7Changé:" target="I2o-FS-A3L" id="HYc-xR-RQX"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xlc-Jh-sKH">
+                                <rect key="frame" x="111" y="30" width="42" height="39"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="jeh-NS-wFt">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="chord3Changé:" target="I2o-FS-A3L" id="nr0-aZ-myO"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iE6-Vb-3eB">
+                                <rect key="frame" x="423" y="30" width="42" height="39"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Keg-3K-Mcx">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="chord10Changé:" target="I2o-FS-A3L" id="sDP-o9-5Ja"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lna-0Q-a0K">
+                                <rect key="frame" x="156" y="30" width="42" height="39"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="tia-e8-gti">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="maybechangéquo:" target="I2o-FS-A3L" id="hlu-mA-e4J"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U8X-kN-npK">
+                                <rect key="frame" x="334" y="30" width="42" height="39"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="vzv-Ms-iMS">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="chord8Changé:" target="I2o-FS-A3L" id="Rjb-D7-dod"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WG9-aU-a3a">
+                                <rect key="frame" x="201" y="30" width="42" height="39"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="Uax-Xs-pDx">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="chord5Changé:" target="I2o-FS-A3L" id="r9L-fW-GIm"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xS4-Mb-YFA">
+                                <rect key="frame" x="245" y="30" width="42" height="39"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="pP4-cQ-nmu">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="chord6Changé:" target="I2o-FS-A3L" id="rTv-Am-GWe"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="exE-Pu-CW5">
+                                <rect key="frame" x="513" y="30" width="42" height="39"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="6mq-qy-W9b">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="chord12Changé:" target="I2o-FS-A3L" id="o93-Da-Hz6"/>
+                                </connections>
+                            </textField>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8zr-mw-10r">
+                                <rect key="frame" x="18" y="96" width="100" height="26"/>
+                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="abG-ZR-Qy1" id="33k-hW-hyo">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="UlG-vc-W3R">
+                                        <items>
+                                            <menuItem title="Item 1" state="on" id="abG-ZR-Qy1"/>
+                                            <menuItem title="Item 2" id="G8Z-Kb-9v3"/>
+                                            <menuItem title="Item 3" id="0kA-MQ-GBe"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                                <connections>
+                                    <action selector="numbaChangé:" target="I2o-FS-A3L" id="tux-K5-dbx"/>
+                                </connections>
+                            </popUpButton>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DCc-9H-PVM">
+                                <rect key="frame" x="18" y="128" width="214" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Number of Chords in Progression:" id="Eh9-DA-67b">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DYt-Wy-GE5">
+                                <rect key="frame" x="392" y="92" width="159" height="32"/>
+                                <buttonCell key="cell" type="push" title="noazsaycloazbruda" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="BJ0-U4-Iwa">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="noazsaycloazbruda:" target="I2o-FS-A3L" id="bG2-1A-H8b"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="chord1" destination="kXu-wi-1dv" id="ClX-xB-aFG"/>
+                        <outlet property="chord10" destination="iE6-Vb-3eB" id="auL-CS-RKE"/>
+                        <outlet property="chord11" destination="ir4-JX-GEY" id="77p-Fv-X1b"/>
+                        <outlet property="chord12" destination="exE-Pu-CW5" id="nsR-Mx-1QY"/>
+                        <outlet property="chord2" destination="R7L-Wf-6nM" id="y3K-0b-Aav"/>
+                        <outlet property="chord3" destination="xlc-Jh-sKH" id="ZXh-rI-WDi"/>
+                        <outlet property="chord4" destination="Lna-0Q-a0K" id="XQB-cy-3eD"/>
+                        <outlet property="chord5" destination="WG9-aU-a3a" id="3pn-FR-OAu"/>
+                        <outlet property="chord6" destination="xS4-Mb-YFA" id="zNV-1n-mXe"/>
+                        <outlet property="chord7" destination="zKf-Wp-rfM" id="0Co-9L-m16"/>
+                        <outlet property="chord8" destination="U8X-kN-npK" id="7xd-3x-lfm"/>
+                        <outlet property="chord9" destination="Ss9-zY-2ba" id="6dk-3A-tUk"/>
+                        <outlet property="noazSaysCloazBrudaButton" destination="DYt-Wy-GE5" id="FOJ-Dg-8cS"/>
+                        <outlet property="numberOfChordsInProgressionComboBox" destination="8zr-mw-10r" id="InU-jP-bcF"/>
+                    </connections>
+                </viewController>
+                <customObject id="NbQ-TL-IRG" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="192" y="1017"/>
         </scene>
         <!--Jammingue Controller-->
         <scene sceneID="2nm-Ko-zX4">
