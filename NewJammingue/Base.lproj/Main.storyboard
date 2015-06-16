@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6751"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -846,7 +846,7 @@
                                 </buttonCell>
                                 <connections>
                                     <action selector="designOwnGo:" target="XfG-lQ-9wD" id="G28-un-muF"/>
-                                    <segue destination="I2o-FS-A3L" kind="popover" identifier="showSecondVC" popoverAnchorView="IWv-38-qSr" popoverBehavior="t" preferredEdge="maxY" id="wIb-qA-xcg"/>
+                                    <segue destination="I2o-FS-A3L" kind="popover" identifier="chordSelection" popoverAnchorView="IWv-38-qSr" popoverBehavior="t" preferredEdge="maxY" id="wIb-qA-xcg"/>
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lKc-Kz-0Mw">
@@ -875,7 +875,6 @@
                         <outlet property="döwnBeat" destination="Ht2-OL-Bvz" id="3e0-li-Ih5"/>
                         <outlet property="drums1Button" destination="N6O-NU-pOR" id="no8-Sw-E2e"/>
                         <outlet property="drums2Button" destination="x6f-ep-lfD" id="6w7-tp-3cM"/>
-                        <outlet property="drumsButton" destination="N6O-NU-pOR" id="qL4-bD-hPR"/>
                         <outlet property="firstSoundchen" destination="8Uo-Ts-Y0Z" id="BLJ-Ne-sZW"/>
                         <outlet property="guittarButton" destination="raK-iZ-q1h" id="Qge-3K-4ZU"/>
                         <outlet property="keySelection" destination="uf7-dU-8gd" id="Bgv-Bg-Wb4"/>
@@ -891,7 +890,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7.5" y="598"/>
+            <point key="canvasLocation" x="143.5" y="672"/>
         </scene>
         <!--Pre Selected View Controller-->
         <scene sceneID="4Pn-fJ-Yk9">
@@ -1224,7 +1223,7 @@
                 </viewController>
                 <customObject id="NbQ-TL-IRG" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="192" y="1017"/>
+            <point key="canvasLocation" x="226" y="1274"/>
         </scene>
         <!--Jammingue Controller-->
         <scene sceneID="2nm-Ko-zX4">
@@ -1252,6 +1251,14 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jfy-83-FLe">
+                                <rect key="frame" x="360" y="50" width="38" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="VsQ-sR-E1T">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                     </view>
                     <connections>
@@ -1260,7 +1267,7 @@
                 </viewController>
                 <customObject id="iit-KA-T8s" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="720" y="655"/>
+            <point key="canvasLocation" x="836" y="545"/>
         </scene>
     </scenes>
 </document>

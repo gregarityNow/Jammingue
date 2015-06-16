@@ -14,7 +14,7 @@ import Cocoa
 
 import AVFoundation
 
-class ViewController: NSViewController, chordSelectionDelegate, predesignedDelegate, AVAudioPlayerDelegate {
+class ViewController: NSViewController, chordSelectionDelegate, predesignedDelegate {
 
     var allSetBool = false
     var designOwnBool = false
@@ -51,6 +51,8 @@ class ViewController: NSViewController, chordSelectionDelegate, predesignedDeleg
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        
         keySelection.removeAllItems()
         firstSoundchen.removeAllItems()
         secoindSoundchen.removeAllItems()
@@ -69,28 +71,28 @@ class ViewController: NSViewController, chordSelectionDelegate, predesignedDeleg
         
         
         
-        
-        //
-        let fileString = NSBundle.mainBundle().pathForResource("reggae", ofType: "wav")
-        let fileurl = NSURL(fileURLWithPath: fileString!)
-        player = AVAudioPlayer(contentsOfURL: fileurl, error: nil)
-        
-        player.prepareToPlay()
-        player.enableRate = true
-        player.rate = 1
-        player.delegate = self
-        //player.play()
-        
-        
-
+//        
+//        //
+//        let fileString = NSBundle.mainBundle().pathForResource("reggae", ofType: "wav")
+//        let fileurl = NSURL(fileURLWithPath: fileString!)
+//        player = AVAudioPlayer(contentsOfURL: fileurl, error: nil)
+//        
+//        player.prepareToPlay()
+//        player.enableRate = true
+//        player.rate = 1
+//        player.delegate = self
+//        //player.play()
+//        
+//        
+//
+//    }
+//    
+//    func applicationWillEnterForeground() {
+//        if let chordProgression = self.representedObject as? [Int: String] {
+//            
+//        }
     }
-    
-    func applicationWillEnterForeground() {
-        if let chordProgression = self.representedObject as? [Int: String] {
-            
-        }
-    }
-    
+//
 
     @IBAction func sliderChange(sender: AnyObject) {
         
@@ -108,6 +110,8 @@ class ViewController: NSViewController, chordSelectionDelegate, predesignedDeleg
         }
         else {
             secoindSoundchen.enabled = false
+            secoindSoundchen.integerValue=firstSoundchen.integerValue
+            secoindSoundchen.title=firstSoundchen.title
         }
     }
 //    override var representedObject: AnyObject? {
@@ -128,19 +132,19 @@ class ViewController: NSViewController, chordSelectionDelegate, predesignedDeleg
     override func prepareForSegue(segue:NSStoryboardSegue, sender: AnyObject?) {
         
         
-        var transFah = ["tempo": tempoManual.integerValue, "timeSig": timeSignature.integerValue, "Brass": brassButton.state, "Bass": bassButton.state, "Mandolin": mandolinButton.state, "Piano": pianoButton.state, "Guittar": guittarButton.state, "Drums1": drums1Button.state, "Drums2": drums2Button.state, "Key": keySelection.indexOfSelectedItem, "Foist": firstSoundchen.indexOfSelectedItem, "Secoind": secoindSoundchen.indexOfSelectedItem, "DöwnBeat": döwnBeat.state, "ChordProgression": chordProgressionLabelorum.stringValue ]
+        var transFah = ["tempo": tempoManual.integerValue, "timeSig": timeSignature.integerValue, "Brass": brassButton.state, "Bass": bassButton.state, "Mandolin": mandolinButton.state, "Piano": pianoButton.state, "Guittar": guittarButton.state, "Drums1": drums1Button.state, "Drums2": drums2Button.state, "Key": keySelection.indexOfSelectedItem, "Foist": firstSoundchen.indexOfSelectedItem, "Secoind": secoindSoundchen.indexOfSelectedItem, "ChordProgression": chordProgressionLabelorum.stringValue ]
         
         if let second = segue.destinationController as? JammingueController {
             second.representedObject = transFah
         }
             
         
-        if segue.identifier == "showSecondVC" {
-            let secondVC:chordSelectionViewController = segue.destinationController as chordSelectionViewController
+        if segue.identifier == "chordSelection" {
+            let secondVC:chordSelectionViewController = segue.destinationController as! chordSelectionViewController
             secondVC.delegate = self
         }
         if segue.identifier == "preDesignedShowSecondVC"{
-            let secondVC: PreSelectedViewController = segue.destinationController as PreSelectedViewController
+            let secondVC: PreSelectedViewController = segue.destinationController as! PreSelectedViewController
             secondVC.delegate = self
         }
 
@@ -158,9 +162,6 @@ class ViewController: NSViewController, chordSelectionDelegate, predesignedDeleg
         chordProgression = ", ".join(chordProgressionArray)
         chordProgressionLabelorum.stringValue = chordProgression
     }
-    
-       
-    
     
 
 }
